@@ -3,7 +3,7 @@ import functions_framework
 # import pprint
 import google.generativeai as palm
 
-palm.configure(api_key='AIzaSyCiW4RWz9wQaazXK0N9BUtXAM43wOvjIqY')
+palm.configure(api_key='YOUR API KEY')
 
 @functions_framework.http
 def palm_http(request):
